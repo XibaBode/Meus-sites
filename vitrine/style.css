@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Rubik,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+}
+
+.container {
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: max-content;
+    margin: 15px;
+    display: inline-block;
+}
+
+.card {
+    max-width: 340px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 0.75rem;
+    border: 1px solid #f6f6f6;
+    box-shadow: #f6f6f6 0px 0px 20px 0px;
+}
+
+.product-image{
+    height: 59vh;
+    width: auto;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+strong {
+    font-weight: 400px;
+}
+
+
+.price {
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #f8a53a;
+    line-height: 1.35;
+}
+
+img {
+    max-width: 100%;
+    width: auto ! important;
+    max-height: 100%;
+}
+
+a {
+    color: #fff;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: .875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    flex-grow: 1;
+    margin-left: 0.75rem;
+    border-radius: 20px;
+    transition: ease-in-out .3s;
+    display: block;
+    text-decoration: none;
+}
+
+.card:hover a {
+    display: block;
+    background-color: #f8a53a;
+}

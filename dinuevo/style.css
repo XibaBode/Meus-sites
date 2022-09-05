@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Poppins,Arial,Helvetica,sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    padding: 10px 50px;
+    min-height: 60vh;
+}
+
+.product-container {
+    max-width: max-content;
+    margin: 15px;
+    display: inline-block;
+    padding-left: inherit;
+
+}
+
+.card {
+    max-width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    display: inline-block;
+    padding: 0.75rem;
+    border: 1px solid #f6f6f6;
+    box-shadow: #f6f6f6 0px 0px 20px 0px;
+}
+
+.card p {
+    font-size: .813rem;
+    line-height: 1.23;
+}
+
+a {
+    color: #fff;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: .875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    flex-grow: 1;
+    margin-left: 0.75rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.card:hover a {
+    color: red;
+}
+
+price {
+    font-weight: bold;
+}
+
+old-price {
+    text-decoration: line-through;
+}
+
+img {
+    height: 59vh;
+    width: auto;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
